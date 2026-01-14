@@ -1,4 +1,4 @@
-
+ [[4xx.pdf]]
 > **Core Philosophy:**
 > 
 > The **4xx** class of status codes indicates a **Client Error**.

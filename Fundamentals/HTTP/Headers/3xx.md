@@ -1,4 +1,4 @@
-
+[[3xx.pdf]]
 > **Core Philosophy:**
 > 
 > The **3xx** class of status codes indicates **Redirection**.
