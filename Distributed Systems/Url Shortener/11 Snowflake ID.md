@@ -1,4 +1,4 @@
-[[05 Distributed Ids.pdf]]
+[[05 Distributed Ids.pdf]] #snowflakeId  
 
 Snowflake IDs were created to fix the **practical problems of UUIDs** while keeping their **global uniqueness**.
 
