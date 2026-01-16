@@ -1,3 +1,4 @@
+[[02 Design.pdf]]
 # Functional Requirements
 
 1. User should be able to come up on the platform, give an original URL and get a shortened version of it.

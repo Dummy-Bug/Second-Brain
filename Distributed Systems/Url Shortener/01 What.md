@@ -1,5 +1,7 @@
 [URL Shorteners ](https://buffer.com/social-media-terms/url-shortener) aim to solve the problem of lengthy and unwieldy links by shortening them into more polished links that are easy to remember and share across social media while still directing to the same page. Shortened URLs help make your content more memorable and easy to share.
 
+[[02 Design.pdf]]
+
 URL Shorteners are often used by social media managers and small business owners to create short links that are more aesthetically pleasing and less cumbersome for their online audience.
 
 ## What are the benefits of using a URL Shortener?

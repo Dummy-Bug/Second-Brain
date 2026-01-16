@@ -1,3 +1,5 @@
+[[03 Simple Approaches.pdf]]
+
 Instead of generating and storing a separate `shortCode`, we can **derive the short URL by hashing the original URL**.
 
 ---

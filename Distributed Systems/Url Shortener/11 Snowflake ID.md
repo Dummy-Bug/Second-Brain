@@ -1,3 +1,5 @@
+[[05 Distributed Ids.pdf]]
+
 Snowflake IDs were created to fix the **practical problems of UUIDs** while keeping their **global uniqueness**.
 
 UUIDs are:

@@ -1,4 +1,4 @@
-
+[[04 Base Encodings.pdf]]
 ## 1. How URLs are actually parsed
 
 A URL is **not a free-form string**. It has structure.
