@@ -1,3 +1,4 @@
+
 ### 1. Simplest approach — no shortCode
 
 Instead of keeping a separate `shortCode`, we can directly use the
