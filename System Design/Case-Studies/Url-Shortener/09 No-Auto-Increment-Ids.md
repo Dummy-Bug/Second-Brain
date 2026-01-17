@@ -14,7 +14,7 @@ This works **only** as long as:
 
 ---
 
-## What breaks when you shard
+## What breaks when we shard
 
 When you shard, you typically have:
 
