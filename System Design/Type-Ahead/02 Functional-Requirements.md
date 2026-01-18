@@ -2,9 +2,8 @@
 ### 1. Autocomplete Suggestions
 
 - System must return typeahead suggestions for a given prefix.
-    
+
 - Suggestions should update as the user types.
-    
 
 ---
 
@@ -15,11 +14,11 @@
 - Ranking based on:
     
     - Historical search count.
-        
-    - Recency boost.
-        
-    - Optional personalization weight.
-        
+       
+    - Recency boost(out of scope).
+      
+    - Optional personalization weight(out of scope).
+      
 
 ---
 
@@ -32,14 +31,10 @@
 3 <= prefix length <= 20
 ```
 
-Reason:
-
+Reasons:
 - Avoid useless single-character queries.
-    
 - Prevent excessive backend load.
-    
 - Improve signal quality.
-    
 
 ---
 
@@ -48,13 +43,13 @@ Reason:
 - Results should adapt to user context:
     
     - Location.
-        
+      
     - Search history.
-        
+      
     - Language.
-        
+      
     - Device signals.
-        
+      
 
 Note:  
 This is primarily an ML ranking problem layered on top of base retrieval.
@@ -80,11 +75,8 @@ Example:
 Purpose:
 
 - Fetch suggestions.
-    
 - Read-heavy.
-    
 - Latency sensitive.
-    
 
 ---
 
@@ -101,11 +93,8 @@ Example:
 Purpose:
 
 - Update popularity counters.
-    
 - Feed ranking pipeline.
-    
 - Write-heavy.
-    
 
 ---
 
@@ -118,7 +107,6 @@ Purpose:
 To avoid sending requests on every keystroke:
 
 - Client must debounce input events.
-    
 
 Example policy:
 
@@ -129,28 +117,19 @@ Debounce interval: 250ms
 Behavior:
 
 - User types continuously → no request sent.
-    
 - User pauses typing → request triggered.
-    
 
 Benefits:
 
 - Reduces QPS.
-    
 - Prevents backend overload.
-    
 - Improves perceived responsiveness.
-    
 
 ---
 
 ### Additional Client Guards
 
 - Cancel in-flight requests when new keystroke arrives.
-    
 - Do not send request if prefix length < 3.
-    
 - Cache last prefix response locally.
-    
-
 ---
