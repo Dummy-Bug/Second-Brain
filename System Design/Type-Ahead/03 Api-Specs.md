@@ -37,8 +37,6 @@ Host: api.yourdomain.com
 Accept: application/json
 ```
 
----
-
 ## Success Response
 
 ### HTTP Status
@@ -61,8 +59,6 @@ Accept: application/json
   "error": null
 }
 ```
-
----
 
 ## Error Response Example
 
@@ -102,8 +98,6 @@ This endpoint should be asynchronous in production.
 PUT /typeahead/increment
 ```
 
----
-
 ## Example HTTP Request
 
 ```http
@@ -111,8 +105,6 @@ PUT /api/v1/typeahead/increment HTTP/1.1
 Host: api.yourdomain.com
 Content-Type: application/json
 ```
-
----
 
 ## Request Body
 
@@ -122,15 +114,12 @@ Content-Type: application/json
 }
 ```
 
----
-
 ## Field Schema
 
 |Field|Type|Required|Description|
 |---|---|---|---|
 |query|string|Yes|Full search query|
 
----
 
 ## Success Response
 
@@ -150,8 +139,6 @@ Content-Type: application/json
   "error": null
 }
 ```
-
----
 
 ## Error Response Example
 

@@ -15,26 +15,11 @@ Autocomplete must feel instant.
 ### Availability Target
 
 - 99.99% uptime.
-    
+
 - Must continue serving during:
-    
-    - Cache node failure.
-        
+    - Cache node failure. 
     - Partial network outage.
-        
-    - Index rebuild.
-        
-
----
-
-### Scalability Requirements
-
-- Support millions of concurrent users.
-    
-- Handle keystroke burst traffic.
-    
-- Hot prefix amplification tolerant.
-    
+    - Index rebuild. 
 
 ---
 
@@ -54,11 +39,8 @@ Write updates asynchronously
 Results:
 
 - Suggestions always load.
-    
 - Ranking may be slightly stale.
-    
 - System continues during failures.
-    
 
 User experience:
 
@@ -79,11 +61,8 @@ Quorum or leader coordination
 Results:
 
 - Higher latency.
-    
 - Throughput bottlenecks.
-    
 - Service stalls on partial failures.
-    
 
 User experience:
 
@@ -104,11 +83,8 @@ Slow. Fragile. Janky.
 ### What users do NOT care about
 
 - Perfect ordering.
-    
 - Real-time popularity updates.
-    
 - Sub-second freshness.
-    
 
 Autocomplete is probabilistic by nature.
 
@@ -123,9 +99,7 @@ Autocomplete is probabilistic by nature.
 Worst case:
 
 - Suggestions slightly misordered.
-    
 - Trending query appears minutes late.
-    
 
 Impact:
 
@@ -138,11 +112,8 @@ Low.
 Worst case:
 
 - Suggestions fail to load.
-    
 - Typing feels broken.
-    
 - Product feels slow.
-    
 
 Impact:
 
